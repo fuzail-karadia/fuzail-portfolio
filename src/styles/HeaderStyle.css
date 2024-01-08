@@ -73,15 +73,33 @@ header .nav-link {
   transition: all 10ms ease-in-out;
 }
 
-header .nav-link.active{
+header .nav-menu::after {
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #6A994E !important;
+  display: block;
+  margin: auto;
+  transition: all 0.5s ease-out;
+}
+
+header .nav-menu:hover::after {
+    width: 100% !important;
+}
+
+header .nav-link.active {
   color: #6A994E !important;
 }
 
 header .nav-link:hover {
   color: #6A994E !important;
-  transition:  .3s;
+  transition: .3s;
 }
 
+header .img-fluid {
+  width: 60px;
+  height: 60px;
+}
 
 /* header .navbar-toggler:focus{
   outline: none !important;
@@ -90,13 +108,17 @@ header .nav-link:hover {
 } */
 
 @media (max-width: 992px) {
-  header .navbar {
+  /* header .navbar {
     background-color: #ECF0F3;
-    /* box-shadow: 5px 5px 10px #B0B6C0; */
-  }
+    box-shadow: 5px 5px 10px #B0B6C0;
+  } */
 
   header .navbar-toggler {
     border: none;
+  }
+
+  header .navbar-collapse {
+    background-color: #ECF0F3
   }
 
   header .navbar-toggler:focus {
@@ -112,5 +134,6 @@ header .nav-link:hover {
   header .nav-link {
     /* background-color: #ECF0F3; */
     padding: 1rem !important;
+    text-align: right;
   }
 }

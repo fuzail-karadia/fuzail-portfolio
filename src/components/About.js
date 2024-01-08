@@ -12,15 +12,13 @@ function About() {
           <AboutMe className='col-lg-8'>
             <Title>About</Title>
             <Head className=' mb-5 mb-sm-1'>Who I Am</Head>
-            <Para>Hi there!, I’m Abdullah, a curious frontend developer who’s trying to get a bit better every day.
-              <br></br><br></br>
-              I currently studying in S.Y.BCA from Tilak Maharashtra Vidyapeeth, Pune.
-              <br></br><br></br>
-              I have always had a knack for technology and working with computers. Fascinated with how intricate programming can be I was quickly drawn to learn more. I started learning JavaScript and was even more enthused with making websites interactive.
+            <Para>Hi there!, I’m Fuzail, a curious Web developer who’s trying to get a bit better every day.
               <br></br><br></br>
               I’m very dedicated to learn new things and to truly believe that you should never stop learning. I enjoy creating different things, whether that be websites, application or anything in between.
               <br></br><br></br>
               I’m always looking for new opportunities to expand my understanding of web design and development, so you’ll generally find me sipping a delicious cup of coffee with my nose in a good “technical” book or plugged into my laptop drooling over all of the beauty the web has to offer. I hope to join a team of talented individuals I can learn from and build engaging digital experiences with.
+              <br></br><br></br>
+              Thank you for taking the time to get to know me better. I look forward to the chance of working together and making a meaningful impact in the world of technology.
               <br></br><br></br>
               <a href=''>Check out some of my latest projects</a>
             </Para>

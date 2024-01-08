@@ -24,7 +24,7 @@ const Header = () => {
       <Navbar collapseOnSelect expand="lg" className={`${nav === true ? "sticky" : ""} `}>
         <Container className=''>
           <Navbar.Brand href="https:\\abdullahjagrala.vercel.app" target="_blank">
-            <img src='/Images/logo.png' alt='logo' className='img-fluid h-25 w-25' />
+            <img src='/Images/logo.png' alt='logo' className='img-fluid' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse id="navbarScroll">
@@ -37,7 +37,7 @@ const Header = () => {
               <Nav.Link Link to="skills" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Skills</Nav.Link>
               <Nav.Link Link to="projects" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Projects</Nav.Link>
               <Nav.Link Link to="contact" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Contact</Nav.Link>
-              <a href='/Resume.pdf' target='_blank' rel='noreferrer'><Button className='btn-main nav-menu'>Resume</Button></a>
+              <a href='/fuzail.karadia.pdf' target='_blank' rel='noreferrer'><Button className='btn-main nav-menu'>Resume</Button></a>
             </Nav>
           </Navbar.Collapse>
         </Container>

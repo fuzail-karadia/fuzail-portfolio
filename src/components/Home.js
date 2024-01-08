@@ -10,18 +10,18 @@ function Home() {
     <Container className=' container-fluid' id='home'>
       <p>Let's Build Something Together</p>
       <Hero>
-        <h1>Hi, i'm Abdullah<br></br>A <span>Front-End Web Developer.</span></h1>
-        <Para>I’m focused on building responsive front-end web applications while persuing S.Y.BCA.</Para>
-        <a href='https://www.linkedin.com/in/abdullah-jagrala-789234280/' target='_blank' rel='noreferrer'>
+        <h1>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
+        <Para>I’m focused on building responsive front-end web applications while learning back-end technologies.</Para>
+        <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
           <Button type='button'><LinkedIn /></Button>
         </a>
-        <a href='https://github.com/Abdullah8007' target='_blank' rel='noreferrer'>
+        <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
           <Button type='button'><GitHub /></Button>
         </a>
         <a>
           <Button type='button'><MailOutlineRounded /></Button>
         </a>
-        <a href='/Resume.pdf' target='_blank' rel='noreferrer'>
+        <a href='/fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
           <Button type='button'><RecentActorsRounded /></Button>
         </a>
       </Hero>
