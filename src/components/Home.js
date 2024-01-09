@@ -48,6 +48,9 @@ const Container = styled.div`
     @media(max-width: 768px) {
       font-size: 16px;
     }
+    @media(max-width: 320px) {
+      font-size: 13px;
+    }
   }
 `;
 
@@ -72,9 +75,14 @@ const Hero = styled.div`
     @media(max-width: 768px) {
       font-size: 45px;
     }
+    
 
     @media(max-width: 712px) {
       font-size: 40px;
+    }
+
+    @media(max-width: 320px) {
+      font-size: 17px;
     }
 
     span {
@@ -102,9 +110,14 @@ const Para = styled.div`
   line-height: 23px;
   font-size: 18px;
   text-transform: uppercase;
+  letter-spacing: 1px;
 
   @media(max-width: 768px) {
     font-size: 16px;
+  }
+  @media(max-width: 320px) {
+    font-size: 13px;
+    line-height: 18px;
   }
 `;
 const Button = styled.button`
