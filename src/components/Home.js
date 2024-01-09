@@ -21,7 +21,7 @@ function Home() {
         <a>
           <Button type='button'><MailOutlineRounded /></Button>
         </a>
-        <a href='/fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
+        <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
           <Button type='button'><RecentActorsRounded /></Button>
         </a>
       </Hero>
