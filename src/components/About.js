@@ -7,8 +7,9 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function About() {
   return (
+
     <section className='about-section' id='about'>
-      <Container className='h-full'>
+      <Container fluid className='h-full'>
         <Container>
           <Row className='justify-content-center align-items-center'>
             <h3 className='head'>About</h3>
@@ -35,6 +36,7 @@ function About() {
         </Container>
       </Container>
     </section>
+
   )
 };
 

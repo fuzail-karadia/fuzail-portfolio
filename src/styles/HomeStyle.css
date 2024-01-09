@@ -1,0 +1,8 @@
+.home-section{
+    text-align: center;
+    flex-direction: column;
+    /* // background-color: #ECF0F3; */
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    padding: 350px 0;
+    height: 100vh;
+}
