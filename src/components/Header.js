@@ -5,6 +5,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import '../styles/HeaderStyle.css';
+import { Link } from 'react-scroll';
 
 
 const Header = () => {
@@ -23,7 +24,7 @@ const Header = () => {
     <header>
       <Navbar collapseOnSelect expand="lg" className={`${nav === true ? "sticky" : ""} `}>
         <Container className=''>
-          <Navbar.Brand href="https:\\abdullahjagrala.vercel.app" target="_blank">
+          <Navbar.Brand href="https://fuzailkaradia.vercel.app/" target="_self">
             <img src='/Images/logo.png' alt='logo' className='img-fluid' />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />
@@ -32,12 +33,12 @@ const Header = () => {
               className="ms-auto my-2 my-lg-0 align-items-center text-uppercase"
               navbarScroll
             >
-              <Nav.Link Link to="home" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Home</Nav.Link>
-              <Nav.Link Link to="about" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>About</Nav.Link>
-              <Nav.Link Link to="skills" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Skills</Nav.Link>
-              <Nav.Link Link to="projects" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Projects</Nav.Link>
-              <Nav.Link Link to="contact" spy={true} smooth={true} offset={50} duration={100} className='nav-menu'>Contact</Nav.Link>
-              <a href='/fuzail.karadia.pdf' target='_blank' rel='noreferrer'><Button className='btn-main nav-menu'>Resume</Button></a>
+              <Nav.Link className='nav-menu'><Link to="home" spy={true} smooth={true} offset={0} duration={100}>Home</Link></Nav.Link>
+              <Nav.Link className='nav-menu'><Link to="about" spy={true} smooth={true} offset={0} duration={100}>About</Link></Nav.Link>
+              <Nav.Link className='nav-menu'><Link to="skills" spy={true} smooth={true} offset={0} duration={100}>Skills</Link></Nav.Link>
+              <Nav.Link className='nav-menu'><Link to="projects" spy={true} smooth={true} offset={0} duration={100}>Projects</Link></Nav.Link>
+              <Nav.Link className='nav-menu'><Link to="contact" spy={true} smooth={true} offset={0} duration={100}>Contact</Link></Nav.Link>
+              <a href='/fuzail.karadia.pdf' target='_blank' rel='noreferrer'><Button className='btn-main'>Resume</Button></a>
             </Nav>
           </Navbar.Collapse>
         </Container>

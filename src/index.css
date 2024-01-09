@@ -25,7 +25,8 @@ body {
   color: #374151;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-
+  /* background-color: #ECF0F3; */
+  /* background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%); */
 }
 
 code {

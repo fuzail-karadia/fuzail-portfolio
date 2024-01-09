@@ -1,8 +1,8 @@
 .btn-main {
   padding: 9px 20px;
-  color: #6A994E !important;
+  color: #17CF97 !important;
   background-color: transparent !important;
-  border: 2px solid #6A994E !important;
+  border: 2px solid #17CF97 !important;
   border-radius: 5px;
   font-size: 16px;
   font-weight: 500;
@@ -14,9 +14,9 @@
 }
 
 .btn-main:hover {
-  background-color: #6A994E !important;
+  background-color: #17CF97 !important;
   color: #ECF0F3 !important;
-  border: 2px solid #6A994E !important;
+  border: 2px solid #17CF97 !important;
   box-shadow: 5px 5px 10px rgb(21 230 76 / 26%) !important;
 }
 
@@ -31,7 +31,8 @@ header .navbar.sticky {
   position: fixed;
   left: 0;
   top: 0;
-  background-color: #ECF0F3;
+  /* background-color: #ECF0F3; */
+  background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
   -webkit-transition: all 10ms ease-in-out;
   -moz-transition: all 10ms ease-in-out;
   -o-transition: all 10ms ease-in-out;
@@ -77,28 +78,32 @@ header .nav-menu::after {
   content: '';
   width: 0%;
   height: 2px;
-  background: #6A994E !important;
+  background: #17CF97 !important;
   display: block;
   margin: auto;
   transition: all 0.5s ease-out;
 }
 
 header .nav-menu:hover::after {
-    width: 100% !important;
+  width: 100% !important;
 }
 
-header .nav-link.active {
-  color: #6A994E !important;
+header a {
+  text-decoration: none;
+}
+
+header .nav-link a.active {
+  color: #17CF97 !important;
 }
 
 header .nav-link:hover {
-  color: #6A994E !important;
+  color: #17CF97 !important;
   transition: .3s;
 }
 
 header .img-fluid {
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
 }
 
 /* header .navbar-toggler:focus{

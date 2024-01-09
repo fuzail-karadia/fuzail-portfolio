@@ -48,16 +48,22 @@ const Container = styled.div`
     height: 100vh;
     display: flex;
     justify-content: center;
-    background-color: #ECF0F3;
-    padding: 0 50px;
+    // background-color: #ECF0F3;
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    padding: 0px;
     flex-direction: column;
     text-align; left;
+
+    @media (max-width: 767px) {
+        padding-top: 20rem;
+        paddig-bottom: 0;
+    }
 `;
 
 const Title = styled.div`
     font-size: 20px;
     text-transform: uppercase;
-    color: #6A994E;
+    color: #17CF97;
     letter-spacing: 1px;
 `;
 
@@ -94,7 +100,7 @@ const Sbox = styled.div`
 
     @media(max-width: 575px) {
         width: 200px;
-flex-basis: 100%;
+        flex-basis: 100%;
     }
 
     @media(max-width: 425px) {
