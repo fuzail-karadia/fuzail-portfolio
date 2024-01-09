@@ -28,14 +28,14 @@ function Home() {
     //   </Hero>
     // </Container >
 
-    <section ClassName='home-section' id='home'>
+    <section id='home'>
       <Container fluid className='h-full'>
         <Container>
           <Row className='justify-content-center align-items-center text-center'>
             <Col lg={12}>
-              <p>Let's Build Something Together</p>
-              <h1>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
-              <p>I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
+              <p className='mini-parah'>Let's Build Something Together</p>
+              <h1 className='head'>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
+              <p className='parah'>I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
               <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
                 <Button type='button'><LinkedIn /></Button>
               </a>
@@ -87,17 +87,17 @@ function Home() {
 // justify-content: center;
 
 //   p {
-//     font-size: 18px;
-//     text-transform: uppercase;
-//     margin-bottom: 5px;
-//     letter-spacing: 1px;
+    // font-size: 18px;
+    // text-transform: uppercase;
+    // margin-bottom: 5px;
+    // letter-spacing: 1px;
 
-//     @media(max-width: 768px) {
-//       font-size: 16px;
-//     }
-//     @media(max-width: 320px) {
-//       font-size: 13px;
-//     }
+    // @media(max-width: 768px) {
+    //   font-size: 16px;
+    // }
+    // @media(max-width: 320px) {
+    //   font-size: 13px;
+    // }
 //   }
 // `;
 
@@ -110,27 +110,27 @@ function Home() {
 //   }
 
 //   h1 {
-//     font-size: 50px;
-//     margin-top: 5px;
-//     margin-bottom: 5px;
-//     text-transform: uppercase;
-//     font-weight: bolder;
-//     color: #434343;
-//     letter-spacing: 1px;
-//     font-weight: 700;
+    // font-size: 50px;
+    // margin-top: 5px;
+    // margin-bottom: 5px;
+    // text-transform: uppercase;
+    // font-weight: bolder;
+    // color: #434343;
+    // letter-spacing: 1px;
+    // font-weight: 700;
 
-//     @media(max-width: 768px) {
-//       font-size: 45px;
-//     }
+    // @media(max-width: 768px) {
+    //   font-size: 45px;
+    // }
 
 
-//     @media(max-width: 712px) {
-//       font-size: 40px;
-//     }
+    // @media(max-width: 712px) {
+    //   font-size: 40px;
+    // }
 
-//     @media(max-width: 320px) {
-//       font-size: 17px;
-//     }
+    // @media(max-width: 320px) {
+    //   font-size: 17px;
+    // }
 
 //     span {
 //       color: transparent;
@@ -150,14 +150,14 @@ function Home() {
 // `;
 
 // const Para = styled.div`
-//   max-width: 600px;
-//   margin: auto;
-//   margin-bottom: 10px;
-//   // letter-spacing: 1px;
-//   line-height: 23px;
-//   font-size: 18px;
-//   text-transform: uppercase;
-//   letter-spacing: 1px;
+  // max-width: 600px;
+  // margin: auto;
+  // margin-bottom: 10px;
+  // // letter-spacing: 1px;
+  // line-height: 23px;
+  // font-size: 18px;
+  // text-transform: uppercase;
+  // letter-spacing: 1px;
 
 //   @media(max-width: 768px) {
 //     font-size: 16px;
@@ -168,15 +168,15 @@ function Home() {
 //   }
 // `;
 // const Button = styled.button`
-//   padding: 18px 20px;
-//   margin: 0 10px;
-//   border: 0px solid #fff;
-//   border-radius: 50%;
-//   background-color: transparent;
-//   box-shadow: 0 10px 10px #B0B6C0;
-//   margin-top: 20px;
-//   cursor: pointer;
-//   transition: .3s;
+  // padding: 18px 20px;
+  // margin: 0 10px;
+  // border: 0px solid #fff;
+  // border-radius: 50%;
+  // background-color: transparent;
+  // box-shadow: 0 10px 10px #B0B6C0;
+  // margin-top: 20px;
+  // cursor: pointer;
+  // transition: .3s;
 
 //   @media (max-width: 320px) {
 //     margin: 0 5px;

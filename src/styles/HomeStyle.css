@@ -1,8 +1,98 @@
-.home-section{
+#home {
     text-align: center;
-    flex-direction: column;
-    /* // background-color: #ECF0F3; */
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
-    padding: 350px 0;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+#home .mini-parah {
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    letter-spacing: 1px;
+}
+
+#home .head {
+    font-size: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #434343;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#home .parah {
+    max-width: 600px;
+    margin: auto;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+    line-height: 23px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#home a button {
+    padding: 18px 20px;
+    margin: 0 10px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 10px 10px #B0B6C0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+    color: #000;
+}
+
+#home a button:hover {
+    transform: scale(1.1, 1.1);
+}
+
+@media(min-width: 768px) {
+    #home .mini-parah {
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 320px) {
+    #home .mini-parah {
+        font-size: 13px;
+    }
+}
+
+@media(max-width: 768px) {
+    #home .head {
+        font-size: 45px;
+    }
+}
+
+@media(max-width: 712px) {
+    #home .head {
+        font-size: 40px;
+    }
+}
+
+@media(max-width: 320px) {
+    #home .head {
+        font-size: 17px;
+    }
+}
+
+@media(max-width: 768px) {
+    #home .parah {
+        font-size: 16px;
+    }
+}
+
+@media(max-width: 768px) {
+    #home .parah {
+        font-size: 13px;
+        line-height: 18px;
+    }
+}
+
