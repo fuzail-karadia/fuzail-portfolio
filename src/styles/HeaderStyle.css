@@ -16,8 +16,8 @@
 .btn-main:hover {
   background-color: #17CF97 !important;
   color: #ECF0F3 !important;
-  border: 2px solid #17CF97 !important;
-  box-shadow: 5px 5px 10px rgb(21 230 76 / 26%) !important;
+  border: 2px solid #17cf97 !important;
+  box-shadow: 5px 5px 10px rgb(23, 207, 151) !important;
 }
 
 header .navbar {
@@ -113,18 +113,18 @@ header .img-fluid {
 } */
 
 @media (max-width: 992px) {
-  /* header .navbar {
-    background-color: #ECF0F3;
-    box-shadow: 5px 5px 10px #B0B6C0;
-  } */
+  header .navbar {
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    /* box-shadow: 5px 5px 10px #B0B6C0; */
+  }
 
   header .navbar-toggler {
     border: none;
   }
 
-  header .navbar-collapse {
+  /* header .navbar-collapse {
     background-color: #ECF0F3
-  }
+  } */
 
   header .navbar-toggler:focus {
     outline: none;
