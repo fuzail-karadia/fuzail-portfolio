@@ -32,7 +32,8 @@ function Home() {
 const Container = styled.div`
     text-align: center;
     flex-direction: column;
-    background-color: #ECF0F3;
+    // background-color: #ECF0F3;
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
     // padding: 350px 0;
     height: 100vh;
     display: flex;
@@ -87,7 +88,7 @@ const Hero = styled.div`
 
     span {
       color: transparent;
-      background-image: linear-gradient(#6A994E, #6A994E);
+      background-image: linear-gradient(#17CF97, #17CF97);
       background-repeat: no-repeat;
       -webkit-background-clip: text;
       background-position: -775px 0;
