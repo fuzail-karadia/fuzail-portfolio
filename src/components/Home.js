@@ -8,26 +8,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 function Home() {
   return (
-    // <Container className=' container-fluid' id='home'>
-    //   <p>Let's Build Something Together</p>
-    //   <Hero>
-    //     <h1>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
-    //     <Para>I’m focused on building responsive front-end web applications while learning back-end technologies.</Para>
-    // <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-    //   <Button type='button'><LinkedIn /></Button>
-    // </a>
-    // <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
-    //   <Button type='button'><GitHub /></Button>
-    // </a>
-    // <a>
-    //   <Button type='button'><MailOutlineRounded /></Button>
-    // </a>
-    // <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-    //   <Button type='button'><RecentActorsRounded /></Button>
-    // </a>
-    //   </Hero>
-    // </Container >
-
+    
     <section className='hero-section' id='home'>
       <Container fluid className='h-full'>
         <Container>
@@ -44,7 +25,7 @@ function Home() {
               <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
                 <Button type='button' className='menu-btn'><GitHub /></Button>
               </a>
-              <a>
+              <a href='#contact' target='_down' rel='noreferrer'>
                 <Button type='button' className='menu-btn'><MailOutlineRounded /></Button>
               </a>
               <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>

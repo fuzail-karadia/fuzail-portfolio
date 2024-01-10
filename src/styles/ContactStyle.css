@@ -1,0 +1,100 @@
+.contact-section {
+    padding-top: 200px;
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 200px;
+}
+
+.contact-section .head {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #17CF97;
+    letter-spacing: 1px;
+}
+
+.contact-section .title {
+    font-size: 32px;
+    margin: 16px 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.contact-section .contact-left {
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    box-shadow: 5px 10px 10px #B0B6C0;
+    border-radius: 10px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.contact-section .contact-left img{
+    transition: 0.3s;
+}
+
+.contact-section .contact-left img:hover{
+    transform: scale(1.1, 1.1);
+}
+
+.contact-section .contact-left .head {
+    color: #000;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.contact-section .contact-left .parah {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.contact-section .contact-left .sub-parah {
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.contact-section .down {
+    padding-top: 20px;
+}
+
+.contact-section .down .head {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-section .down a .menu-btn {
+    padding: 18px 20px;
+    margin: 0 10px;
+    border: 0px solid #fff;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 0 10px 10px #B0B6C0;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: .3s;
+    color: #000;
+}
+
+.contact-section .down a .menu-btn:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.contact-section .contact-right {
+    background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
+    box-shadow: 5px 10px 10px #B0B6C0;
+    padding: 25px;
+    border-radius: 10px;
+    
+}
+
+/* @media (max-width: 768px) {
+    .contact-section .contact-left {
+        height: 100%;
+    }
+
+    .contact-section .contact-right {
+        height: 100%;
+    }
+} */
