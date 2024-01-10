@@ -50,6 +50,13 @@
     color: #000;
 }
 
+@media(max-width: 320px) {
+    .hero-section a .menu-btn{
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
 .hero-section a .menu-btn:hover {
     transform: scale(1.1, 1.1);
 }

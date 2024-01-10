@@ -31,7 +31,7 @@ header .navbar.sticky {
   position: fixed;
   left: 0;
   top: 0;
-  /* background-color: #ECF0F3; */
+  padding: 0;
   background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
   -webkit-transition: all 10ms ease-in-out;
   -moz-transition: all 10ms ease-in-out;
