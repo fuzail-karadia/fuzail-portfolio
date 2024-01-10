@@ -4,7 +4,7 @@ import Header from './components/Header.js';
 import Home from './components/Home.js';
 import About from './components/About.js';
 import Skills from './components/Skills.js';
-// import Projects from './components/Projects.js';
+import Projects from './components/Projects.js';
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Skills />
-      {/* <Projects /> */}
+      <Projects />
     </div>
   );
 }
