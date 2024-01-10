@@ -33,22 +33,6 @@ function Home() {
               </a>
             </Col>
           </Row>
-          {/* <Row className='justify-content-center align-items-center text-center'>
-            <Col lg={12}>
-              <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-                <Button type='button'><LinkedIn /></Button>
-              </a>
-              <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
-                <Button type='button'><GitHub /></Button>
-              </a>
-              <a>
-                <Button type='button'><MailOutlineRounded /></Button>
-              </a>
-              <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-                <Button type='button'><RecentActorsRounded /></Button>
-              </a>
-            </Col>
-          </Row> */}
         </Container>
       </Container>
     </section>
