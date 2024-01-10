@@ -28,7 +28,7 @@ function Home() {
     //   </Hero>
     // </Container >
 
-    <section id='home'>
+    <section className='hero-section' id='home'>
       <Container fluid className='h-full'>
         <Container>
           <Row className='justify-content-center align-items-center text-center'>
@@ -37,16 +37,16 @@ function Home() {
               <h1 className='head'>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
               <p className='parah'>I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
               <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-                <Button type='button'><LinkedIn /></Button>
+                <Button type='button' className='menu-btn'><LinkedIn /></Button>
               </a>
               <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
-                <Button type='button'><GitHub /></Button>
+                <Button type='button' className='menu-btn'><GitHub /></Button>
               </a>
               <a>
-                <Button type='button'><MailOutlineRounded /></Button>
+                <Button type='button' className='menu-btn'><MailOutlineRounded /></Button>
               </a>
               <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-                <Button type='button'><RecentActorsRounded /></Button>
+                <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
               </a>
             </Col>
           </Row>

@@ -1,28 +1,11 @@
 .about-section {
-    height: 100vh;
+    /* height: 100vh; */
+    padding-top: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
     /* background-color: #ECF0F3; */
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
-}
-
-@media (max-width: 1024px) {
-    .about-section {
-        padding: 30rem 0;
-    }
-}
-
-@media (max-width: 991px) {
-    .about-section {
-        padding: 51rem 0;
-    }
-}
-
-@media (max-width: 768px) {
-    .about-section {
-        padding: 50rem 0;
-    }
 }
 
 .about-section .img-fluid {
