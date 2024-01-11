@@ -15,7 +15,7 @@
 }
 
 .hero-section .head {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 5px;
     margin-bottom: 5px;
     text-transform: uppercase;
@@ -80,13 +80,13 @@
 
 @media(max-width: 768px) {
     .hero-section .head {
-        font-size: 45px;
+        font-size: 40px;
     }
 }
 
 @media(max-width: 712px) {
     .hero-section .head {
-        font-size: 40px;
+        font-size: 18px;
     }
 }
 
