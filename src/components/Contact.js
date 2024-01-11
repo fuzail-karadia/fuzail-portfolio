@@ -47,31 +47,31 @@ function Contact() {
                                         <Col sm={6} lg={6} className='mb-3 mb-lg-0'>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                                 <Form.Label>Name</Form.Label>
-                                                <Form.Control type="text" placeholder="Enter Your Name" />
+                                                <Form.Control type="text" />
                                             </Form.Group>
                                         </Col>
                                         <Col sm={6} lg={6} className='mb-3 mb-lg-0'>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                                 <Form.Label>Phone Number</Form.Label>
-                                                <Form.Control type="text" placeholder="Enter Your Mobile Number" />
+                                                <Form.Control type="text" />
                                             </Form.Group>
                                         </Col>
                                         <Col lg={12} className='mb-3 mb-lg-0'>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                                 <Form.Label>Email</Form.Label>
-                                                <Form.Control type="email" placeholder="Enter Your Email" />
+                                                <Form.Control type="email" />
                                             </Form.Group>
                                         </Col>
                                         <Col lg={12} className='mb-3 mb-lg-0'>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
                                                 <Form.Label>Subject</Form.Label>
-                                                <Form.Control type="text" placeholder="Enter Your Subject" />
+                                                <Form.Control type="text" />
                                             </Form.Group>
                                         </Col>
                                         <Col lg={12} className='mb-3 mb-lg-0'>
                                             <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
                                                 <Form.Label>Message</Form.Label>
-                                                <Form.Control as="textarea" rows={5} placeholder="Enter Message" />
+                                                <Form.Control as="textarea" rows={5} />
                                             </Form.Group>
                                         </Col>
                                         <Button type='button' className='btn-main'>Send Message</Button>

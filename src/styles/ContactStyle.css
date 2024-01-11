@@ -127,3 +127,14 @@
 .contact-section .to-top-btn:hover {
     transform: scale(1.1, 1.1);
 }
+
+.contact-section .contact-right .form-label{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media (max-width: 320px) {
+    .contact-section .contact-left .head{
+        font-size: 22px;
+    }
+}
