@@ -37,3 +37,12 @@
     text-transform: capitalize;
     font-weight: 500;
 }
+
+.about-section .parah .a-project {
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.about-section .parah .a-project:hover {
+    color: #17CF97;
+}

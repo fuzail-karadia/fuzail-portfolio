@@ -14,7 +14,7 @@ function Contact() {
                     <Row className='justify-content-center align-items-center'>
                         <h3 className='head'>Contact</h3>
                         <h1 className='title'>Get In Touch</h1>
-                        <Col lg={5} className='mb-5 mb-lg-0'>
+                        <Col lg={5} className='mb-3 mb-lg-0'>
                             <div className='contact-left'>
                                 <img src='/Images/contact.png' alt='Contact' className='img-fluid w-100 h-auto' />
                                 <h1 className='head'>Fuzail Karadia</h1>
@@ -40,7 +40,7 @@ function Contact() {
                                 </div>
                             </div>
                         </Col>
-                        <Col lg={7} className='mb-5 mb-lg-0 mt-5 mt-lg-0'>
+                        <Col lg={7} className='mb-3 mb-lg-0 mt-3 mt-lg-0'>
                             <div className='contact-right'>
                                 <Form>
                                     <Row className='justify-content-center align-items-center'>

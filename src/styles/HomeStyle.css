@@ -49,6 +49,12 @@
     color: #000;
 }
 
+.hero-section .btn-grp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media(max-width: 320px) {
     .hero-section a .menu-btn{
         margin-left: 2px;

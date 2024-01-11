@@ -10,7 +10,7 @@ function Projects() {
                 <Row>
                     <h3 className='head'>Projects</h3>
                     <h1 className='title'>What I've Built</h1>
-                    <Col lg={6} className='mb-5 mb-lg-0 mt-4 mt-lg-0 overlay'>
+                    <Col lg={6} className='mb-3 mb-lg-0 mt-3 mt-lg-0 overlay'>
                         <img src='/Images/utpan.png' alt='MovieMetropolis' className='img-fluid w-100 h-auto' />
                         <div className='layer'>
                             <h3>Utpan</h3>
@@ -25,7 +25,7 @@ function Projects() {
                             </div>
                         </div>
                     </Col>
-                    <Col lg={6} className='mb-5 mb-lg-0 mt-4 mt-lg-0 overlay'>
+                    <Col lg={6} className='mb-3 mb-lg-0 mt-3 mt-lg-0 overlay'>
                         <img src='/Images/Eduford.png' alt='Eduford' className='img-fluid' />
                         <div className='layer'>
                             <h3>Eduford</h3>

@@ -18,7 +18,9 @@ function Home() {
               <h1 className='head'>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
               <p className='parah'>I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
             </Col>
-            <Col sm={12} md={12} lg={12}>
+          </Row>
+          <Row>
+            <div className='btn-grp'>
               <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
                 <Button type='button' className='menu-btn'><LinkedIn /></Button>
               </a>
@@ -33,7 +35,7 @@ function Home() {
               <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
                 <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
               </a>
-            </Col>
+            </div>
           </Row>
         </Container>
       </Container>
