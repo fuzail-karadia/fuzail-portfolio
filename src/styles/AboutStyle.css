@@ -1,9 +1,8 @@
 .about-section {
-    padding-top: 200px;
+    padding-top: 240px;
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: #ECF0F3; */
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
 }
 
@@ -28,13 +27,9 @@
 
 .about-section .title {
     font-size: 32px;
-    /* padding: 16px 0; */
     margin: 16px 0;
     font-weight: 700;
     letter-spacing: 1px;
-    /* background: -webkit-linear-gradient(13deg, #09009f, #32d390 15%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
 }
 
 .about-section .parah {

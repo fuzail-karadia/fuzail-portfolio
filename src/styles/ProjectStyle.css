@@ -1,28 +1,10 @@
 .project-section {
-    padding-top: 200px;
+    padding-top: 240px;
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
     align-items: center;
     justify-content: center;
     display: flex;
 }
-
-/* @media (max-width: 991px) {
-    .project-section {
-        padding-top: 60rem;
-    }
-}
-
-@media (max-width: 425px) {
-    .project-section {
-        padding-top: 45rem;
-    }
-}
-
-@media (max-width: 320px) {
-    .project-section {
-        padding-top: 30rem;
-    }
-} */
 
 .project-section .row .head {
     font-size: 20px;
@@ -33,7 +15,6 @@
 
 .project-section .row .title {
     font-size: 32px;
-    /* padding: 16px 0; */
     margin: 16px 0;
     font-weight: 700;
     letter-spacing: 1px;

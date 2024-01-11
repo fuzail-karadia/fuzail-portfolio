@@ -106,25 +106,16 @@ header .img-fluid {
   height: 80px;
 }
 
-/* header .navbar-toggler:focus{
-  outline: none !important;
-  border: none !important;
-  text-decoration: none !important;
-} */
+
 
 @media (max-width: 992px) {
   header .navbar {
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
-    /* box-shadow: 5px 5px 10px #B0B6C0; */
   }
 
   header .navbar-toggler {
     border: none;
   }
-
-  /* header .navbar-collapse {
-    background-color: #ECF0F3
-  } */
 
   header .navbar-toggler:focus {
     outline: none;
@@ -137,7 +128,6 @@ header .img-fluid {
   }
 
   header .nav-link {
-    /* background-color: #ECF0F3; */
     padding: 1rem !important;
     text-align: right;
   }

@@ -1,8 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { GitHub, LinkedIn, Instagram, RecentActorsRounded } from '@mui/icons-material';
+import KeyboardDoubleArrowUpIcon from '@mui/icons-material/KeyboardDoubleArrowUp';
 import { Form, Button, Col, Container, Row } from 'react-bootstrap';
 import '../styles/ContactStyle.css';
+import { Link } from 'react-scroll';
 
 function Contact() {
     return (
@@ -21,18 +23,20 @@ function Contact() {
 
                                 <div className='down'>
                                     <h3 className='head'>CONNECT WITH ME</h3>
-                                    <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-                                        <Button type='button' className='menu-btn'><LinkedIn /></Button>
-                                    </a>
-                                    <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
-                                        <Button type='button' className='menu-btn'><GitHub /></Button>
-                                    </a>
-                                    <a href='https://www.instagram.com/fuzail.karadia/' target='_blank' rel='noreferrer'>
-                                        <Button type='button' className='menu-btn'><Instagram /></Button>
-                                    </a>
-                                    <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-                                        <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
-                                    </a>
+                                    <div className='btn-group'>
+                                        <a href='https://www.linkedin.com/in/abdullah-jagrala-789234280/' target='_blank' rel='noreferrer'>
+                                            <Button type='button' className='menu-btn'><LinkedIn /></Button>
+                                        </a>
+                                        <a href='https://github.com/Abdullah8007' target='_blank' rel='noreferrer'>
+                                            <Button type='button' className='menu-btn'><GitHub /></Button>
+                                        </a>
+                                        <a href='https://www.instagram.com/a_jagrala_007/' target='_blank' rel='noreferrer'>
+                                            <Button type='button' className='menu-btn'><Instagram /></Button>
+                                        </a>
+                                        <a href='/Resume.pdf' target='_blank' rel='noreferrer'>
+                                            <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
+                                        </a>
+                                    </div>
                                 </div>
                             </div>
                         </Col>
@@ -75,6 +79,11 @@ function Contact() {
                                 </Form>
                             </div>
                         </Col>
+                    </Row>
+                    <Row className='last-btn'>
+                        <Button className='to-top-btn'>
+                            <Link to="home" spy={true} smooth={true} offset={0} duration={100}><KeyboardDoubleArrowUpIcon /></Link>
+                        </Button>
                     </Row>
                 </Container>
             </Container>
