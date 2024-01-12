@@ -90,7 +90,7 @@
 }
 
 .contact-section .down a .menu-btn:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.2, 1.2);
 }
 
 .contact-section .contact-right {
@@ -124,7 +124,7 @@
 }
 
 .contact-section .to-top-btn:hover {
-    transform: scale(1.1, 1.1);
+    transform: scale(1.2, 1.2);
 }
 
 .contact-section .contact-right .form-label {
