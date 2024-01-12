@@ -41,8 +41,8 @@
     margin: 0 10px;
     border: 0px solid #fff;
     border-radius: 50%;
-    background-color: transparent;
-    box-shadow: 0 10px 10px #B0B6C0;
+    background-color: transparent !important;
+    box-shadow: 0 10px 10px #B0B6C0 !important;
     margin-top: 20px;
     cursor: pointer;
     transition: .3s;

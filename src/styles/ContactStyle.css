@@ -103,6 +103,10 @@
     align-items: center;
 }
 
+/* .contact-section .contact-right .btn-main {
+    box-shadow: 5px 10px 10px #b0b6c0 !important;
+} */
+
 .contact-section .last-btn {
     display: flex;
     align-items: center;
@@ -115,8 +119,8 @@
     border: 0px solid #fff;
     color: #17CF97;
     border-radius: 50%;
-    background-color: transparent;
-    box-shadow: 0 10px 10px #B0B6C0;
+    background-color: transparent !important;
+    box-shadow: 0 10px 10px #B0B6C0 !important;
     margin-top: 60px;
     cursor: pointer;
     transition: .3s;
@@ -127,13 +131,13 @@
     transform: scale(1.1, 1.1);
 }
 
-.contact-section .contact-right .form-label{
+.contact-section .contact-right .form-label {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 @media (max-width: 320px) {
-    .contact-section .contact-left .head{
+    .contact-section .contact-left .head {
         font-size: 22px;
     }
 }

@@ -8,7 +8,7 @@
   font-weight: 500;
   text-transform: uppercase;
   cursor: pointer;
-  box-shadow: 5px 5px 10px rgb(21 230 76 / 26%);
+  box-shadow: 5px 5px 10px rgb(23, 207, 151) !important;
   font-family: 'Poppins', sans-serif;
   transition: .3s;
 }
