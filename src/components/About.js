@@ -16,7 +16,7 @@ function About() {
             <h3 className='head'>About</h3>
             <h1 className='title'>Who I Am</h1>
             <Col lg={5} className='mb-5 mb-lg-0'>
-              <img src='/Images/about-img.png' alt='About-Img' className='img-fluid' />
+              <img src='/Images/about.jpg' alt='About-Img' className='img-fluid' />
             </Col>
             <Col lg={7} className='mb-5 mb-lg-0'>
               <p className='parah'>
