@@ -3,7 +3,7 @@ import React from 'react'
 import Button from 'react-bootstrap/Button';
 import { GitHub, LinkedIn, MailOutlineRounded, RecentActorsRounded } from '@mui/icons-material';
 import '../styles/HomeStyle.css';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row, } from 'react-bootstrap';
 import { Link } from 'react-scroll';
 
 function Home() {
@@ -13,11 +13,11 @@ function Home() {
       <Container fluid className='h-full'>
         <Container>
           <Row className='justify-content-center align-items-center text-center'>
-            <Col lg={12}>
+            
               <p className='mini-parah'>Let's Build Something Together</p>
               <h1 className='head'>Hi, i'm Fuzail<br></br>A <span>Front-End Web Developer.</span></h1>
               <p className='parah'>I’m focused on building responsive front-end web applications while learning back-end technologies.</p>
-            </Col>
+            
           </Row>
           <Row>
             <div className='btn-grp'>
