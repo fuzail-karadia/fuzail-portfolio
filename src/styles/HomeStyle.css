@@ -66,13 +66,13 @@
     transform: scale(1.1, 1.1);
 }
 
-@media(min-width: 768px) {
+@media(max-width: 768px) {
     .hero-section .mini-parah {
         font-size: 16px;
     }
 }
 
-@media(min-width: 320px) {
+@media(max-width: 320px) {
     .hero-section .mini-parah {
         font-size: 10px;
     }
