@@ -55,6 +55,22 @@
     align-items: center;
 }
 
+.hero-section .btn-grp a .menu-btn .linkedin {
+    color: #0270ad;
+}
+
+.hero-section .btn-grp a .menu-btn .github {
+    color: #000000;
+}
+
+.hero-section .btn-grp a .menu-btn .mail {
+    color: #fcca3d;
+}
+
+.hero-section .btn-grp a .menu-btn .actor {
+    color: #17CF97;
+}
+
 @media(max-width: 320px) {
     .hero-section a .menu-btn{
         margin-left: 2px;

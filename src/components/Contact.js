@@ -50,16 +50,16 @@ function Contact() {
                                     <h3 className='head'>CONNECT WITH ME</h3>
                                     <div className='btn-group'>
                                         <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-                                            <Button type='button' className='menu-btn'><LinkedIn /></Button>
+                                            <Button type='button' className='menu-btn'><LinkedIn className='linkedin' /></Button>
                                         </a>
                                         <a href='https://github.com/fuzail-karadia' target='_blank' rel='noreferrer'>
-                                            <Button type='button' className='menu-btn'><GitHub /></Button>
+                                            <Button type='button' className='menu-btn'><GitHub className='github' /></Button>
                                         </a>
                                         <a href='https://www.instagram.com/fuzail.karadia/' target='_blank' rel='noreferrer'>
-                                            <Button type='button' className='menu-btn'><Instagram /></Button>
+                                            <Button type='button' className='menu-btn'><Instagram className='insta' /></Button>
                                         </a>
                                         <a href='./Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-                                            <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
+                                            <Button type='button' className='menu-btn'><RecentActorsRounded className='actor' /></Button>
                                         </a>
                                     </div>
                                 </div>

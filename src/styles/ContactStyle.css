@@ -93,6 +93,22 @@
     transform: scale(1.2, 1.2);
 }
 
+.contact-section .down a .menu-btn .linkedin {
+    color: #0270ad;
+}
+
+.contact-section .down a .menu-btn .github {
+    color: #000000;
+}
+
+.contact-section .down a .menu-btn .insta {
+    color: #da2f7e;
+}
+
+.contact-section .down a .menu-btn .actor {
+    color: #17CF97;
+}
+
 .contact-section .contact-right {
     background: linear-gradient(90deg, #effaff 0%, #d9e7ff 100%);
     box-shadow: 5px 10px 10px #B0B6C0;

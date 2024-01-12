@@ -22,18 +22,18 @@ function Home() {
           <Row>
             <div className='btn-grp'>
               <a href='https://www.linkedin.com/in/fuzail-karadia-0a2935230/' target='_blank' rel='noreferrer'>
-                <Button type='button' className='menu-btn'><LinkedIn /></Button>
+                <Button type='button' className='menu-btn'><LinkedIn className='linkedin' /></Button>
               </a>
               <a href='https://github.com/fuzail-karadia/' target='_blank' rel='noreferrer'>
-                <Button type='button' className='menu-btn'><GitHub /></Button>
+                <Button type='button' className='menu-btn'><GitHub className='github' /></Button>
               </a>
               <a>
                 <Link to="contact" spy={true} smooth={true} offset={0} duration={100}>
-                  <Button type='button' className='menu-btn'><MailOutlineRounded /></Button>
+                  <Button type='button' className='menu-btn'><MailOutlineRounded className='mail' /></Button>
                 </Link>
               </a>
               <a href='/Fuzail.karadia.pdf' target='_blank' rel='noreferrer'>
-                <Button type='button' className='menu-btn'><RecentActorsRounded /></Button>
+                <Button type='button' className='menu-btn'><RecentActorsRounded className='actor' /></Button>
               </a>
             </div>
           </Row>
