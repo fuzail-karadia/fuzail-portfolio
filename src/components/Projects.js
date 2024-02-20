@@ -11,7 +11,7 @@ function Projects() {
                     <h3 className='head'>Projects</h3>
                     <h1 className='title'>What I've Built</h1>
                     <Col lg={6} className='mb-3 mb-lg-0 mt-3 mt-lg-0 overlay'>
-                        <img src='/Images/utpan.png' alt='MovieMetropolis' className='img-fluid w-100 h-auto' />
+                        <img src='/Images/utpan.png' alt='Utpan' className='img-fluid w-100 h-auto' />
                         <div className='layer'>
                             <h3>Utpan</h3>
                             <h5>HTML, CSS, BOOTSTRAP</h5>
@@ -35,6 +35,21 @@ function Projects() {
                                     <Button className='btn-main'>Code</Button>
                                 </a>
                                 <a href='https://eduford-university-tawny.vercel.app/' target='_blank' rel='noreferrer'>
+                                    <Button className='btn-main'>Demo</Button>
+                                </a>
+                            </div>
+                        </div>
+                    </Col>
+                    <Col lg={6} className='mb-3 mb-lg-0 mt-3 mt-lg-3 overlay'>
+                        <img src='/Images/Foodies.png' alt='Foodies' className='img-fluid' />
+                        <div className='layer'>
+                            <h3>Foodies</h3>
+                            <h5>HTML, CSS, BOOTSTRAP</h5>
+                            <div className='buttons'>
+                                <a href='https://github.com/fuzail-karadia/Foodies' target='_blank' rel='noreferrer'>
+                                    <Button className='btn-main'>Code</Button>
+                                </a>
+                                <a href='https://foodiesrestaurant.vercel.app/' target='_blank' rel='noreferrer'>
                                     <Button className='btn-main'>Demo</Button>
                                 </a>
                             </div>

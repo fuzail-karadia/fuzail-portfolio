@@ -47,6 +47,12 @@ function Skills() {
                                 <h4>GITHUB</h4>
                             </div>
                         </Col>
+                        <Col md={6} lg={4} className='mb-3 mb-lg-0 mt-3'>
+                            <div className='skill-menu'>
+                                <img src='/Images/wordpress.png' alt='About-Img' className='img-fluid' />
+                                <h4>WORDPRESS</h4>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </Container>
